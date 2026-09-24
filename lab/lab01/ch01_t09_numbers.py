@@ -1,2 +1,2 @@
 cucmbers = 1
-price_per_cucmbers * price_per_cucumber
+price_per_cucumbers * price_per_cucumber
