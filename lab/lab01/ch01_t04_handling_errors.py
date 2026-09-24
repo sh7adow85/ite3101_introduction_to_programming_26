@@ -1,1 +1,1 @@
-print("How do you make ")
+print("How do you make a hot dog stand")
