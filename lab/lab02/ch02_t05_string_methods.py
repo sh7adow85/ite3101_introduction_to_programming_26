@@ -1,2 +1,2 @@
-print
+parrot = "N"
 print(len（parrot）)
