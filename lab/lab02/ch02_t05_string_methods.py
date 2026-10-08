@@ -1,2 +1,2 @@
-parrot = "N"
-print(len（parrot）)
+parrot = "Norwegian Blue"
+print(lenparrot）)
