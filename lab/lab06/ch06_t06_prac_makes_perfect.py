@@ -1,4 +1,4 @@
-from typing import Any
+rom typing import Any
 
 
 def cube(number: int) -> int:
@@ -9,4 +9,4 @@ def cube(number: int) -> int:
         if number % 3 == 0:
             return cube(number)
         else:
-            return False
+            return Falsef
