@@ -1,11 +1,10 @@
 def greater_less_equal_5(answer: int) -> int:
-    if None:
+    if answer > 5:
         return 1
-    elif None:
+    elif answer < 5:
         return -1
     else:
         return 0
-
 
 print(greater_less_equal_5(4))
 print(greater_less_equal_5(5))
