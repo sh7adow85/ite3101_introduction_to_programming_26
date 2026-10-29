@@ -1,10 +1,9 @@
-suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+# lab08/ch08_t05_list_slicing.py
 
-# The first and second items (index zero and one)
-first = suitcase[0:2]
+suitcase = ["sunglasses", "passport", "laptop", "suit", "shoes"]
 
-# Third and fourth items (index two and three)
-middle = None
+# Slice the middle items (index 1 up to, but not including, index 3)
+middle = suitcase[1:3]
 
-# The last two items (index four and five)
-last = None
+# Slice the last items (from index 3 to the end)
+last = suitcase[3:5]
