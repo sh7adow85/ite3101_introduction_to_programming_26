@@ -1,7 +1,9 @@
+# lab08/ch08_t07_maintaining_order.py
+
 animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
-duck_index = None  # Use index() to find "duck"
 
-# Your code here!
+# Find the index of "duck" and store it in duck_index
+duck_index = animals.index("duck")
 
-
-print(animals)  # Observe what prints after the insert operation
+# Insert "cobra" at that index to maintain order
+animals.insert(duck_index, "cobra")
