@@ -1,5 +1,4 @@
 def trip_cost(city, days, spending):
-    # 不同城市机票和酒店单价
     if city == "Los Angeles":
         flight = 475
         hotel_per_day = 148
@@ -18,5 +17,4 @@ def trip_cost(city, days, spending):
     return total
 
 
-# 调用测试
 trip_cost("Los Angeles", 5, 600)
