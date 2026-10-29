@@ -1,9 +1,8 @@
-# lab08/ch08_t05_list_slicing.py
+# lab08/ch08_t06_slicing_lists_n_strings.py
 
-suitcase = ["sunglasses", "passport", "laptop", "suit", "shoes"]
+animals = "catdogfrog"
 
-# Slice the middle items (index 1 up to, but not including, index 3)
-middle = suitcase[1:3]
-
-# Slice the last items (from index 3 to the end)
-last = suitcase[3:5]
+# Slice out each animal using its index range
+cat = animals[0:3]
+dog = animals[3:6]
+frog = animals[6:10]
