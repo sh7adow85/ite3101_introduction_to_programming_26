@@ -1,9 +1,8 @@
-zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
-# Last night our zoo's sloth brutally attacked
-# the poor tiger and ate it whole.
+# lab08/ch08_t03_new_neighbor.py
 
-# The ferocious sloth has been replaced by a friendly hyena.
-zoo_animals[2] = "hyena"
+# Option A: Define the list with a different animal at index 3
+zoo_animals = ["lion", "elephant", "monkey", "panda"]
 
-# What shall fill the void left by our dear departed tiger?
-# Your code here!
+# Option B: If you are modifying an existing list from a previous task
+# zoo_animals = ["lion", "tiger", "bear", "tiger"]
+# zoo_animals[3] = "panda"
