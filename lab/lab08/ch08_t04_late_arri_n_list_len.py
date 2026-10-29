@@ -1,10 +1,4 @@
-suitcase = []
-suitcase.append("sunglasses")
+# lab08/ch08_t04_late_arri_n_list_len.py
 
-# Your code here!
-
-
-list_length = 1  # Set this to the length of suitcase
-
-print("There are %d items in the suitcase." % list_length)
-print(suitcase)
+suitcase = ['sunglasses', 'bathing suit', 'T-shirt', 'Jacket']
+list_length = len(suitcase)
