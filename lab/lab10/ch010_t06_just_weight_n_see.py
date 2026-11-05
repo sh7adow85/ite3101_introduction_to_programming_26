@@ -1,3 +1,5 @@
+from typing import List
+
 lloyd = {
     "name": "Lloyd",
     "homework": [90.0, 97.0, 75.0, 92.0],
